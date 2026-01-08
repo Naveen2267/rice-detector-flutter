@@ -23,83 +23,50 @@ The app combines TensorFlow Lite, Firebase ML Model Downloader, and the Google G
 
 🚀 Features
 🔍 Rice Identification
-
 Upload or capture an image of rice grains
-
 On-device AI classification using a custom TFLite model
-
 Identifies multiple rice varieties (Basmati, Arborio, Jasmine, Ipsala, Karacadag, etc.)
 
 🧠 Health Insights (Gemini API)
-
 Fetches structured, point-wise health information
-
 Explains benefits and effects of the detected rice on diabetic patients
-
 Easy-to-read, scrollable result layout
 
 ☁️ Firebase ML Integration
-
 Automatically downloads the latest model version
-
 No need to update the app for model improvements
-
 Reliable and secure model hosting
 
 📱 Smooth User Experience
-
 Modern, clean UI with green agricultural-themed gradients
-
 Simple camera & gallery permissions
-
 Fast inference even on low-end devices
 
 🛠️ Tech Stack
-
 Flutter & Dart
-
 TensorFlow Lite
-
 Firebase ML Model Downloader
-
 Google Gemini API
-
 Permission Handler
-
 image package for preprocessing
 
 📷 How It Works
-
 Take a photo or choose one from your gallery
-
 Image is resized and processed
-
 TFLite model predicts the rice variety
-
 The detected rice type is sent to Gemini
-
 Gemini returns point-wise benefits and health effects
-
 The app displays everything in a clean results screen
 
 🧪 Use Cases
-
 Dietary awareness for diabetic patients
-
 Food & nutritional analysis
-
 Agriculture and grain classification education
-
 Demonstrating Mobile AI + Generative AI integration
 
 📦 Project Status
-
 This project is actively evolving with plans for:
-
 Adding more rice classes
-
 Improved model accuracy
-
 Offline health info caching
-
 Multi-language support
