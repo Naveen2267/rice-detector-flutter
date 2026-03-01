@@ -1,72 +1,136 @@
-# know_your_rice
+# 🍚 Rice Detector — AI-Powered Rice Classification & Health Insights
 
-A new Flutter project.
+## 📌 Overview
 
-## Getting Started
+**Rice Detector** is an AI-powered Flutter mobile application that identifies rice varieties from images and provides health-related insights, with a focus on dietary considerations for diabetic patients.
 
-This project is a starting point for a Flutter application.
+The app integrates **on-device machine learning** with **cloud-based generative AI** to deliver fast, accurate predictions and meaningful nutritional guidance.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Key Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔍 Rice Variety Identification
 
-🍚 Rice Detector – Flutter App
-AI-Powered Rice Classification & Health Insights
+* Capture an image or select from the gallery
+* On-device inference using a custom TensorFlow Lite model
+* Supports multiple rice varieties such as:
 
-Rice Detector is an AI-driven Flutter application that identifies different rice varieties from an image and provides health-related insights tailored especially for diabetic patients.
-The app combines TensorFlow Lite, Firebase ML Model Downloader, and the Google Gemini API to deliver fast, accurate predictions and meaningful health information.
+  * Basmati
+  * Arborio
+  * Jasmine
+  * Ipsala
+  * Karacadag
+  * and more
 
-🚀 Features
-🔍 Rice Identification
-Upload or capture an image of rice grains
-On-device AI classification using a custom TFLite model
-Identifies multiple rice varieties (Basmati, Arborio, Jasmine, Ipsala, Karacadag, etc.)
+---
 
-🧠 Health Insights (Gemini API)
-Fetches structured, point-wise health information
-Explains benefits and effects of the detected rice on diabetic patients
-Easy-to-read, scrollable result layout
+### 🧠 AI-Generated Health Insights
 
-☁️ Firebase ML Integration
-Automatically downloads the latest model version
-No need to update the app for model improvements
-Reliable and secure model hosting
+* Uses Google Gemini API to generate structured health information
+* Provides benefits and dietary considerations for diabetic patients
+* Displays clear, point-wise explanations
+* Easy-to-read results screen
 
-📱 Smooth User Experience
-Modern, clean UI with green agricultural-themed gradients
-Simple camera & gallery permissions
-Fast inference even on low-end devices
+---
 
-🛠️ Tech Stack
-Flutter & Dart
-TensorFlow Lite
-Firebase ML Model Downloader
-Google Gemini API
-Permission Handler
-image package for preprocessing
+### ☁️ Dynamic Model Delivery (Firebase ML)
 
-📷 How It Works
-Take a photo or choose one from your gallery
-Image is resized and processed
-TFLite model predicts the rice variety
-The detected rice type is sent to Gemini
-Gemini returns point-wise benefits and health effects
-The app displays everything in a clean results screen
+* Automatically downloads the latest ML model version
+* Enables seamless model updates without app redeployment
+* Secure and reliable hosting of model files
 
-🧪 Use Cases
-Dietary awareness for diabetic patients
-Food & nutritional analysis
-Agriculture and grain classification education
-Demonstrating Mobile AI + Generative AI integration
+---
 
-📦 Project Status
-This project is actively evolving with plans for:
-Adding more rice classes
-Improved model accuracy
-Offline health info caching
-Multi-language support
+### 📱 Smooth Mobile Experience
+
+* Clean, modern UI with agricultural-themed design
+* Fast inference even on low-end devices
+* Simple camera and gallery permissions
+* Fully on-device classification (no internet required for prediction)
+
+---
+
+## 🛠️ Technology Stack
+
+* **Flutter & Dart** — Cross-platform mobile development
+* **TensorFlow Lite** — On-device machine learning inference
+* **Firebase ML Model Downloader** — Dynamic model updates
+* **Google Gemini API** — Generative AI health insights
+* **Permission Handler** — Runtime permissions
+* **image package** — Image preprocessing
+
+---
+
+## ⚙️ System Workflow
+
+1. User captures or selects an image of rice grains
+2. Image is resized and preprocessed
+3. TFLite model performs classification on-device
+4. Predicted rice variety is sent to Gemini API
+5. Gemini generates health insights
+6. Results are displayed in a structured UI
+
+---
+
+## 🧪 Use Cases
+
+* Dietary awareness for diabetic patients
+* Nutritional guidance for rice consumption
+* Agricultural education and grain classification
+* Demonstration of Mobile AI + Generative AI integration
+* Academic and research projects
+
+---
+
+## 📊 Supported Rice Varieties
+
+The application is trained to recognize multiple rice types commonly used worldwide. Support for additional varieties can be added through model updates.
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+
+* Flutter SDK installed
+* Android Studio or VS Code
+* Android device or emulator
+
+## 🔒 Permissions Required
+
+* Camera — for capturing rice images
+* Storage / Photos — for selecting images from gallery
+* Internet — for fetching AI health insights
+
+---
+
+## 🔮 Future Enhancements
+
+* Support for additional rice varieties
+* Improved model accuracy and performance
+* Offline caching of health information
+* Multi-language support
+* Nutritional comparison between rice types
+* Real-time camera classification
+
+---
+
+## 👨‍💻 Author
+
+**Naveen**
+Final Year Engineering Student
+Aspiring Software Engineer | AI & Mobile Developer
+
+---
+
+## ⭐ Acknowledgements
+
+* TensorFlow Lite Team
+* Firebase ML
+* Google Gemini API
+* Flutter Community
+
+---
+
+## 🌟 If you found this project useful, consider giving it a star!
